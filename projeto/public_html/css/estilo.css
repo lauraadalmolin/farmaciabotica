@@ -1,0 +1,167 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20/04/2016, 19:33:22
+    Author     : Laura
+*/
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+ul {
+   
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.li-left {
+    float: left;
+}
+
+li a {
+    vertical-align: -200%;
+    font-family: century gothic;
+    font-size: 22px;
+    color: #054414;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.icon {
+    padding-right: 10px;
+}
+.logo {
+   
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+.li-right {
+    vertical-align: -200%;
+    font-family: century gothic;
+    font-size: 22px;
+    color: #054414;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+}
+
+.tel {
+       padding-right: 100px;
+}
+li img {
+    display: block;
+}
+
+/* Change the link color to #111 (black) on hover */
+.a:hover {
+    text-decoration: none;
+    color: #054414;
+    border-bottom: 2px solid #054414;
+    background-color: #cce5cc;
+}
+.active {
+    text-decoration: none;
+    border-bottom: 2px solid #054414;
+    background-color: #cce5cc;
+}
+
+.navbar {
+    top: 0px;
+    color: #054414;
+    padding: 5px;
+}
+
+.p1{
+    color: white;
+    
+}
+.div1 {
+    height: 100px;
+    width: 100px;
+}
+.verdeClaro {
+    background-color: #416b4b;
+}
+
+.verdeEscuro {
+    background-color: #054414;
+}
+
+.preto {
+    background-color: black;
+}
+
+td {
+    padding: 10px 10px 10px 10px;
+    width: 150px;
+    height: 200px;
+}
+img { 
+    border-radius: 10px;
+}
+
+#board {
+    margin: auto;
+    padding-top: 40px;
+
+
+}
+#title {
+    color: white;
+    font-size: 60px;
+    font-family: "Copperplate Gothic Light", sans-serif;
+    text-align: center;
+    padding-top: 100px;
+
+}
+#subtitle {
+    color: white;
+    font-size: 20px;
+    font-family: "Copperplate Gothic Light", sans-serif;
+    text-align: center;
+    padding-top: 10px;
+
+}
+#b {
+    position: relative;
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    font-family: "Copperplate Gothic Light", sans-serif;
+
+}
+#button {
+    
+    font-family: "Copperplate Gothic Light", sans-serif;
+    padding: 10px 15px 11px !important;
+    font-size: 18px !important;
+    background-color: lightskyblue;
+    text-shadow: 1px 1px #57D6C7;   
+    color: #ffffff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #57D6C7;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    visibility: hidden;
+}
+#music {
+    visibility: hidden;
+}
