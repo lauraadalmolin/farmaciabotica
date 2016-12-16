@@ -21,7 +21,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white;
+    background-color: #cce5cc;
 }
 
 .li-left {
@@ -73,16 +73,36 @@ li img {
     border-bottom: 2px solid #054414;
     background-color: #cce5cc;
 }
-.active {
+.a_tel {
+    text-decoration: none !important;
+    color: #054414;
+}
+.a_tel:hover, a_tel:visited, a_tel:link, a_tel:active  {
+    text-decoration: none !important;
+    color: #054414;
+
+}
+.title {
+    font-family: century gothic;
+    font-size: 36px;
+    color: #054414;
+}
+.a:visited, a:link, a:active {
+ 
     text-decoration: none;
+}
+.active {
+    text-decoration: none !important;
     border-bottom: 2px solid #054414;
     background-color: #cce5cc;
+    color: #054414 !important;
 }
 
 .navbar {
     top: 0px;
     color: #054414;
     padding: 5px;
+    background-color: rgb(220,237,220);
 }
 
 .p1{
@@ -114,54 +134,4 @@ img {
     border-radius: 10px;
 }
 
-#board {
-    margin: auto;
-    padding-top: 40px;
 
-
-}
-#title {
-    color: white;
-    font-size: 60px;
-    font-family: "Copperplate Gothic Light", sans-serif;
-    text-align: center;
-    padding-top: 100px;
-
-}
-#subtitle {
-    color: white;
-    font-size: 20px;
-    font-family: "Copperplate Gothic Light", sans-serif;
-    text-align: center;
-    padding-top: 10px;
-
-}
-#b {
-    position: relative;
-    padding-top: 10px;
-    text-align: center;
-    margin: auto;
-    font-family: "Copperplate Gothic Light", sans-serif;
-
-}
-#button {
-    
-    font-family: "Copperplate Gothic Light", sans-serif;
-    padding: 10px 15px 11px !important;
-    font-size: 18px !important;
-    background-color: lightskyblue;
-    text-shadow: 1px 1px #57D6C7;   
-    color: #ffffff;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border: 1px solid #57D6C7;
-    cursor: pointer;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-    visibility: hidden;
-}
-#music {
-    visibility: hidden;
-}

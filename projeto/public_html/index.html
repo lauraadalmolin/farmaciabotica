@@ -6,7 +6,8 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Farmácia Botica</title>
+        <link rel="shortcut icon" href="icon_nobg.png"/>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/estilo.css"/>
@@ -15,24 +16,40 @@ and open the template in the editor.
         <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
     </head>
-    <body>
+    <body onload='mostra()'>
         <div id='top-bar'>
             <div class='container'>
-                
+
             </div>
         </div>
-        <div style='border: 1px;'>
+        <div>
             <ul class='navbar'>
-                <li class='logo'><a class='li-left'><img src='logo2.png' width='300px'></a></li>
-                <li><a href='#' class='a li-left' onclick='active(1)'>Início</a></li>
-                <li><a href='#' class='a li-left' onclick='active(2)'>História</a></li>
-                <li><a href='#' class='a li-left' onclick='active(3)'>Produtos</a></li>
-                <li><a href='#' class='a li-left' onclick='active(4)'>Saúde</a></li>
-                <li class='tel'><a href='#' class='a li-right'><span class='icon glyphicon glyphicon-earphone'></span>(53)3231-9551</a></li>
-            </ul>
-           
+                <li class='logo'><a class='li-left'><img src='logo2.png' width='150px'></a></li>
+                <li><a id='1' href='#' class='a li-left' onclick='active(1)'>Início</a></li>
+                <li><a id='2' href='#' class='a li-left' onclick='active(2)'>História</a></li>
+                <li><a id='3' href='#' class='a li-left' onclick='active(3)'>Produtos</a></li>
+                <li><a id='4' href='#' class='a li-left' onclick='active(4)'>Saúde</a></li>
+                <li class='tel'><a href='#' class='a_tel li-right'><span class='icon glyphicon glyphicon-earphone'></span>(53)3231-9551</a></li>
+            </ul>           
         </div>
-   
-                     
+        
+        <div class="container">
+            <div class='row'>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-lg-8"> 
+                    <img src='botica.jpg' width='600px'>
+                </div>
+                <div class="col-lg-4"> 
+                    <h1 class='title'>Farmácia Botica</h1>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+
+
+
     </body>
 </html>
