@@ -11,9 +11,10 @@ body {
     margin: 0;
     padding: 0;
     text-decoration: none;
+    height: 100%;
 }
 ul {
-   
+
     position: fixed;
     top: 0;
     width: 100%;
@@ -41,11 +42,11 @@ li a {
     padding-right: 10px;
 }
 .logo {
-   
+
     padding-top: 20px;
     padding-left: 100px;
     padding-right: 100px;
-    
+
 }
 
 .li-right {
@@ -60,7 +61,7 @@ li a {
 }
 
 .tel {
-       padding-right: 100px;
+    padding-right: 100px;
 }
 li img {
     display: block;
@@ -71,7 +72,17 @@ li img {
     text-decoration: none;
     color: #054414;
     border-bottom: 2px solid #054414;
-    background-color: #cce5cc;
+
+}
+.text {
+    padding-top: 2px;
+    text-align: justify;
+    font-family: Century Gothic;
+    font-size: 18px;
+    line-height: 2;
+}
+.imagem {
+    padding-top: 2%;
 }
 .a_tel {
     text-decoration: none !important;
@@ -82,19 +93,53 @@ li img {
     color: #054414;
 
 }
+.thumbnail2 {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+
+}
+#search {
+    font-family: century gothic;
+    
+}
+#search-bar {
+    width: 300px;
+}
 .title {
     font-family: century gothic;
     font-size: 36px;
     color: #054414;
 }
+.title_produtos {
+    font-family: century gothic;
+    font-size: 30px;
+    color: #054414;
+    padding-bottom: 2%;
+}
+.title_saude {
+    font-family: century gothic;
+    font-size: 20px;
+    color: #054414;
+    
+}
+.subtitle {
+    font-family: century gothic;
+    font-size: 20px;
+    color: #054414;
+    text-align: center;
+
+}
 .a:visited, a:link, a:active {
- 
+
     text-decoration: none;
 }
 .active {
     text-decoration: none !important;
     border-bottom: 2px solid #054414;
-    background-color: #cce5cc;
+
     color: #054414 !important;
 }
 
@@ -107,7 +152,7 @@ li img {
 
 .p1{
     color: white;
-    
+
 }
 .div1 {
     height: 100px;
@@ -135,3 +180,29 @@ img {
 }
 
 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    
+    width:100%;
+    background-color: #054414;
+    color: white;
+    font-family: Century Gothic;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+.content {overflow:hidden;}
+.aside {width:200px;}
+.fleft {float:left;}
+.fright {float:right;}

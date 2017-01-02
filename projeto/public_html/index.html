@@ -16,7 +16,7 @@ and open the template in the editor.
         <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
     </head>
-    <body onload='mostra()'>
+    <body onload='mostra("inicio")'>
         <div id='top-bar'>
             <div class='container'>
 
@@ -25,28 +25,190 @@ and open the template in the editor.
         <div>
             <ul class='navbar'>
                 <li class='logo'><a class='li-left'><img src='logo2.png' width='150px'></a></li>
-                <li><a id='1' href='#' class='a li-left' onclick='active(1)'>Início</a></li>
-                <li><a id='2' href='#' class='a li-left' onclick='active(2)'>História</a></li>
-                <li><a id='3' href='#' class='a li-left' onclick='active(3)'>Produtos</a></li>
-                <li><a id='4' href='#' class='a li-left' onclick='active(4)'>Saúde</a></li>
+                <li><a id='1' href='#' class='a li-left' onclick='active(1), mostra("inicio")'>Início</a></li>
+                <li><a id='2' href='#' class='a li-left' onclick='active(2), mostra("historia")'>História</a></li>
+                <li><a id='3' href='#' class='a li-left' onclick='active(3), mostra("produtos")'>Produtos</a></li>
+                <li><a id='4' href='#' class='a li-left' onclick='active(4), mostra("saude")'>Saúde</a></li>
                 <li class='tel'><a href='#' class='a_tel li-right'><span class='icon glyphicon glyphicon-earphone'></span>(53)3231-9551</a></li>
             </ul>           
         </div>
-        
-        <div class="container">
+
+        <div class="container" id='inicio'>
             <div class='row'>
                 <hr>
             </div>
             <div class="row">
-                <div class="col-lg-8"> 
-                    <img src='botica.jpg' width='600px'>
+                <div class="col-lg-7"> 
+                    <div class="imagem">
+                        <img src='botica.jpg' width='600px'>
+                    </div>
                 </div>
-                <div class="col-lg-4"> 
+                <div class="col-lg-5"> 
                     <h1 class='title'>Farmácia Botica</h1>
-                    <p></p>
+                    <p class='text'> Localizada na cidade de Rio Grande, Rio Grande do Sul, a farmácia Botica se encontra no mercado há mais de 10 anos.</p>
+                    <p class='text'> </p>
+
                 </div>
             </div>
         </div>
+        <div class='container' id='historia'>
+            <div class='row'>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-lg-5"> 
+                    <h1 class='title'>Farmácia Botica</h1>
+                    <p class='text'> Localizada na cidade de Rio Grande, Rio Grande do Sul, a farmácia Botica se encontra no mercado há mais de 10 anos.</p>
+                    <p class='text'> </p>
+
+                </div>
+                <div class="col-lg-7"> 
+                    <div class="imagem">
+                        <img src='botica.jpg' width='600px'>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class='container' id='produtos'>
+            <div class='row'>
+                <hr>
+            </div>
+            <div class='row'>
+                <div class='col-lg-12'>
+                    <h1 class="title_produtos"> Conheça alguns dos nossos produtos</h1>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-lg-3'>
+                    <div class="thumbnail2">
+                        <img src="botica.jpg" width="100%">
+                        <div class="caption">
+                            <h1 class='subtitle'>Óleo de cártamo</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-lg-3'>
+                    <div class="thumbnail2">
+                        <img src="botica.jpg" width="100%">
+                        <div class="caption">
+                            <h1 class='subtitle'>Óleo de cártamo</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-lg-3'>
+                    <div class="thumbnail2">
+                        <img src="botica.jpg" width='100%'>
+                        <div class="caption">
+                            <h1 class='subtitle'>Óleo de cártamo</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-lg-3'>
+                    <div class="thumbnail2">
+                        <img src="botica.jpg" width="100%">
+                        <div class="caption">
+                            <h1 class='subtitle'>Óleo de cártamo</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-lg-3'>
+                    <div class="thumbnail2">
+                        <img src="botica.jpg" width="100%">
+                        <div class="caption">
+                            <h1 class='subtitle'>Óleo de cártamo</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-lg-3'>
+                    <div class="thumbnail2">
+                        <img src="botica.jpg" width="100%">
+                        <div class="caption">
+                            <h1 class='subtitle'>Óleo de cártamo</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-lg-3'>
+                    <div class="thumbnail2">
+                        <img src="botica.jpg" width='100%'>
+                        <div class="caption">
+                            <h1 class='subtitle'>Óleo de cártamo</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-lg-3'>
+                    <div class="thumbnail2">
+                        <img src="botica.jpg" width="100%">
+                        <div class="caption">
+                            <h1 class='subtitle'>Óleo de cártamo</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-lg-3'>
+                    <div class="thumbnail2">
+                        <img src="botica.jpg" width="100%">
+                        <div class="caption">
+                            <h1 class='subtitle'>Óleo de cártamo</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-lg-3'>
+                    <div class="thumbnail2">
+                        <img src="botica.jpg" width="100%">
+                        <div class="caption">
+                            <h1 class='subtitle'>Óleo de cártamo</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-lg-3'>
+                    <div class="thumbnail2">
+                        <img src="botica.jpg" width='100%'>
+                        <div class="caption">
+                            <h1 class='subtitle'>Óleo de cártamo</h3>
+
+                        </div>
+                    </div>
+                </div>
+                <div class='col-lg-3'>
+                    <div class="thumbnail2">
+                        <img src="botica.jpg" width="100%">
+                        <div class="caption">
+                            <h1 class='subtitle'>Óleo de cártamo</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='container' id='saude'>
+            <div class='row'>
+                <hr>
+            </div>
+            <div class='row'>
+                <div class='col-lg-6'>
+                    <h1 class="title_saude"> Indicações de fitoterápicos por problema de saúde </h1>
+                </div>
+                <div class='col-lg-6' id="search">
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group" >
+                            <input id="search-bar" type="text" cols="20" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Enviar</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <footer id='footer'>
+            <p>Botica - Farmácia de Manipulação e Drogaria</p>
+            <p>Rua Andradas 247 | Bairro Centro | CEP: 96200-030 | Rio Grande, RS </p>
+            <p>E-mail: boticariogrande@outlook.com | Telefones: (53) 3231-9551 e (53)</p>
+        </footer>
 
 
 
