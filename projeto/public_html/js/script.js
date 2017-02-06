@@ -17,3 +17,7 @@ function mostra(id) {
         $('#footer').css("position", "fixed");
     }
 }
+
+function mostraDefinicao(id) {
+    
+}

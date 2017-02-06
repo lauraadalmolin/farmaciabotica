@@ -28,7 +28,17 @@ ul {
 .li-left {
     float: left;
 }
-
+.foco {
+    background-color: rgb(220,237,220);
+    color: #054414;
+    font-family: Century Gothic;
+    border-radius: 10px;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+    font-size: 20px;
+}
 li a {
     vertical-align: -200%;
     font-family: century gothic;
@@ -37,6 +47,9 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+.definicao {
+    font-size: 16px;
 }
 .icon {
     padding-right: 10px;
