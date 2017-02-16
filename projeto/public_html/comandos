@@ -1,0 +1,36 @@
+----------- COMANDOS LINUX ------------------
+
+su -> para entrar no root
+
+mysql -u root -p -> para inciar o mysql
+
+sudo apt-get update -> atualiza os pacotes
+
+sudo apt-get upgrade -> atualiza o sistema?
+
+php -S localhost:4567 -> para usar o php
+
+-- 
+vai que
+<div class='container' id='saude'>
+            <div class='row'>
+                <hr>
+            </div>
+            <div class='row'>
+                <div class='col-lg-6'>
+                    <h1 class="title_saude"> Indicações de fitoterápicos por problema de saúde </h1>
+                </div>
+                <div class='col-lg-6' id="search">
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group" >
+                            <input id="search-bar" type="text" cols="20" class="form-control">
+                        </div>
+                        <button type="submit" class="btn btn-default">Enviar</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+
+        <img src="imagens/botica.jpg" width="100%" onclick="mostraDefinicao()">

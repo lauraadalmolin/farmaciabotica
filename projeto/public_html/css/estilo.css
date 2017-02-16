@@ -31,7 +31,7 @@ ul {
 .foco {
     background-color: rgb(220,237,220);
     color: #054414;
-    font-family: Century Gothic;
+    font-family: didact Gothic;
     border-radius: 10px;
     padding-left: 2%;
     padding-top: 1%;
@@ -39,9 +39,18 @@ ul {
     padding-right: 2%;
     font-size: 20px;
 }
+
+.botoes_tipo {
+    background-color: #054414;
+    border-radius: 5px;
+    color: white;
+    font-family: didact Gothic;
+
+}
+
 li a {
     vertical-align: -200%;
-    font-family: century gothic;
+    font-family: didact gothic;
     font-size: 22px;
     color: #054414;
     text-align: center;
@@ -64,7 +73,7 @@ li a {
 
 .li-right {
     vertical-align: -200%;
-    font-family: century gothic;
+    font-family: didact gothic;
     font-size: 22px;
     color: #054414;
     text-align: center;
@@ -90,7 +99,7 @@ li img {
 .text {
     padding-top: 2px;
     text-align: justify;
-    font-family: Century Gothic;
+    font-family: didact Gothic;
     font-size: 18px;
     line-height: 2;
 }
@@ -115,31 +124,41 @@ li img {
 
 }
 #search {
-    font-family: century gothic;
+    font-family: didact gothic;
     
 }
 #search-bar {
     width: 300px;
 }
 .title {
-    font-family: century gothic;
+    font-family: didact gothic;
     font-size: 36px;
     color: #054414;
 }
 .title_produtos {
-    font-family: century gothic;
+    font-family:didact gothic;
     font-size: 30px;
     color: #054414;
     padding-bottom: 2%;
 }
 .title_saude {
-    font-family: century gothic;
+    font-family: didact gothic;
     font-size: 20px;
     color: #054414;
     
 }
+.botao {
+    color: #054414;
+    font-family: didact gothic;
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    border-style: solid;
+    border-color: rgb(220,237,220);
+    font-size: 20px;
+    border-radius: 5px;
+}
 .subtitle {
-    font-family: century gothic;
+    font-family: didact gothic;
     font-size: 20px;
     color: #054414;
     text-align: center;
@@ -161,6 +180,14 @@ li img {
     color: #054414;
     padding: 5px;
     background-color: rgb(220,237,220);
+}
+
+.botoes {
+     
+    color: #054414;
+    padding: 5px;
+    background-color: rgb(220,237,220);
+    
 }
 
 .p1{
@@ -201,7 +228,7 @@ footer {
     width:100%;
     background-color: #054414;
     color: white;
-    font-family: Century Gothic;
+    font-family: Didact Gothic;
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;

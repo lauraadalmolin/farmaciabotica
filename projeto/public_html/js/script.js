@@ -6,6 +6,7 @@ function active(j) {
 }
 
 function mostra(id) {
+
     document.getElementById("inicio").style.display = "none";
     document.getElementById("historia").style.display = "none";
     document.getElementById("produtos").style.display = "none";
@@ -18,6 +19,10 @@ function mostra(id) {
     }
 }
 
-function mostraDefinicao(id) {
-    
+function mostraDetalhes(i) {
+   alert(i);
+   $('#' + i).on('click', function() {
+    // Do something on an existent or future .dynamicElement
+    document.getElementById(i).style.display = "block";
+    });
 }
