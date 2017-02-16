@@ -34,7 +34,7 @@ and open the template in the editor.
                 <li class='logo'><a class='li-left'><img src='logo2.png' width='150px'></a></li>
                 <li><a id='1' href='#' class='a li-left' onclick='active(1), mostra("inicio")'>Início</a></li>
                 <li><a id='2' href='#' class='a li-left' onclick='active(2), mostra("historia")'>História</a></li>
-                <li><a id='3' href='#' class='a li-left' onclick='active(3), mostra("produtos")'>Produtos</a></li>
+                <li><a id='3' href='#' class='a li-left' onclick='active(3), mostra("produtos"), mostraProduto("fitos")'>Produtos</a></li>
                 
                 <li class='tel'><a href='#' class='a_tel li-right'><span class='icon glyphicon glyphicon-earphone'></span>(53) 3231-9551</a></li>
             </ul>           
@@ -101,9 +101,9 @@ and open the template in the editor.
                 <div class='col-lg-12'>
                     <div>                                    
                         <button onclick="mostraProduto('fitos')" class="botao">Fitoterápicos</button>
-                        <button class="botao">Cosméticos</button>
-                        <button class="botao">Chás</button>
-                        <button class="botao">Florais</button>                                  
+                        <button onclick="mostraProduto('cosmeticos')" class="botao">Cosméticos</button>
+                        <button onclick="mostraProduto('chas')" class="botao">Chás</button>
+                        <button onclick="mostraProduto('florais')" class="botao">Florais</button>                                  
                     </div>
                 </div>
             </div>

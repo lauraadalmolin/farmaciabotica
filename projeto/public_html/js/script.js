@@ -26,3 +26,11 @@ function mostraDetalhes(i) {
     document.getElementById(i).style.display = "block";
     });
 }
+
+function mostraProduto(p) {
+    document.getElementById("fitos").style.display = "none";
+    document.getElementById("cosmeticos").style.display = "none";
+    document.getElementById("chas").style.display = "none";
+    document.getElementById("florais").style.display = "none";
+    document.getElementById(p).style.display = "block";
+}
