@@ -28,6 +28,7 @@ function mostraDetalhes(i) {
 }
 
 function mostraProduto(p) {
+    document.getElementById("pesquisa").style.display = "none";
     document.getElementById("fitos").style.display = "none";
     document.getElementById("cosmeticos").style.display = "none";
     document.getElementById("chas").style.display = "none";

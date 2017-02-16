@@ -70,10 +70,24 @@ while ($produto = mysqli_fetch_assoc($resultado)) {
 return $produtos;
 }
 
+function buscar_produto($conexao) {
+if ($_POST('search-bar')!= null) {
+	$nome = $_GET('pesquisa');
+	$sqlBusca = "SELECT p.nome_produto, p.id_produto, p.id_imagem, p.descricao, p.tipo, i.src FROM produtos p INNER JOIN imagens i ON (p.id_imagem = i.id_imagem) WHERE p.nome_produto LIKE '%" . $nome . "%'";
+	$resultado = mysqli_query($conexao, $sqlBusca);
+	$produtos = array();	
+	while ($produto = mysqli_fetch_assoc($resultado)) {
+		 $produtos[] = $produto;
+	}
+	return $produtos;
+	}
+}
+
 $lista_fitos = buscar_fitos($conexao);
 $lista_cosmeticos = buscar_cosmeticos($conexao);
 $lista_chas = buscar_chas($conexao);
 $lista_florais = buscar_florais($conexao);
-$lista_produtos = buscar_produtos($conexao);
+$lista_pesquisa = buscar_produtos($conexao);
+
 
 ?>

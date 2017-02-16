@@ -88,11 +88,11 @@ and open the template in the editor.
                     <h1 class="title_produtos"> Conheça alguns dos nossos produtos </h1>
                 </div>
                 <div class='col-lg-5' id="search">
-                    <form class="navbar-form navbar-left">
+                    <form class="navbar-form navbar-left" method='get' id='searchform'>
                         <div class="form-group" >
                             <input id="search-bar" type="text" cols="20" class="form-control">
                         </div>
-                        <button type="submit" class="btn btn-default">Buscar</button>
+                        <button class="btn btn-default" onclick='mostraProduto("pesquisa")'>Buscar</button>
                     </form>
                 </div>
             </div>
@@ -147,7 +147,7 @@ and open the template in the editor.
             </div>
           
 
-            <div id='cosmeticos'>
+            <div id='cosmeticos' style='display: none;'>
             <?php 
                 $j = 0; 
                 $i = 0;
@@ -172,7 +172,7 @@ and open the template in the editor.
             </div>
 
 
-            <div id='chas'>
+            <div id='chas' style='display: none;'>
             <?php 
                 $j = 0; 
                 $i = 0;
@@ -196,7 +196,7 @@ and open the template in the editor.
             <?php $j = 0; endif; $i++; endwhile; ?>
             </div>
 
-            <div id='florais'>
+            <div id='florais' style='display: none;'>
             <?php 
                 $j = 0; 
                 $i = 0;
@@ -219,6 +219,32 @@ and open the template in the editor.
                 </div>
             <?php $j = 0; endif; $i++; endwhile; ?>
             </div>
+
+            <div id='pesquisa' style='display: none;'>
+            <?php 
+                $j = 0; 
+                $i = 0;
+             ?>
+            <?php while ($i < count($lista_pesquisa)) : ?>
+                <?php if ($j == 0) : ?>
+                    <div class='row'>
+                <?php endif; ?>
+                 <div class='col-lg-3'>
+                    <div class="thumbnail2">
+                            <div onclick='mostraDetalhes(<?php echo $lista_pesquisa[$i]['id_produto'] ?>)'>
+                            <?php echo utf8_encode($lista_pesquisa[$i]['src']); ?>
+                            </div>
+                            <div class="caption">
+                                <h1 class='subtitle'><?php echo utf8_encode($lista_pesquisa[$i]['nome_produto']); ?></h1>
+                            </div>
+                    </div>
+                </div>
+            <?php  $j++; if ($j == 4 || $i+1 == count($lista_pesquisa)) : ?> 
+                </div>
+            <?php $j = 0; endif; $i++; endwhile; ?>
+            </div>
+
+           
 
         </div>
 
